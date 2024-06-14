@@ -1,37 +1,19 @@
 <html>
   <head>
-    <title>calculadora teste</title>
+    <title>Projeto Final Calculadora</title>
+    <p>uma simples calculadora em JavaScript com as funções básicas.</p>
   </head>
   <body>
-    <p class="teto-apresentacao">Essa será nossa calculadora baeada em javascript</p>
-    <button type='button' id='igual' onclick='='>=</button>
-    <button type='button' id='adicao' onclick='+'>+</button>
-    <button type='button' id='subtracao' onclick='-'>-</button>
-    <button type='button' id='multiplic' onclick='*'>x</button>
-    <button type='button' id=' divisao' onclick='/'>/</button>
-    
-    <button type='button' id='zero' onclick='0'>0</button>/button>
-    <button type='button' id='um' onclick='1'>1</button>/button>
-    <button type='button' id='dois' onclick='2'>2</button>/button>
-    <button type='button' id='tres' onclick='3'>3</button>/button>
-    <button type='button' id='quatro' onclick='4'>4</button>/button>
-    <button type='button' id='cinco' onclick='5'>5</button>/button>
-    <button type='button' id='seis' onclick='6'>6</button>/button>
-    <button type='button' id='sete' onclick='7'>7</button>/button>
-    <button type='button' id='oito' onclick='8'>8</button>/button>
-    <button type='button' id='nove' onclick='9'>9</button>/button>
     <div class='calculadora'>
-      <div class="display">
-        <anput id='display' placeholder='0'disabled>
-          <h2 id='historico'></h2>
+      <div class='display'>
+        <input id='display'placeholder='0' disabled>
       </div>
       <div class='linha'>
-        <button class'ce' onclick='limpar()'>CE</button>
-         <button class'c' onclick='limpar()'>C</button>
-         <button class'percent' onclick='percentual()'>%</button>
-         <button class'divisao' onclick='add_operador()'>/</button>
-        
-      </div>
+        <button class='ce' onclick='limpar()'>CE</button>
+        <button class='c' onclick='limpar()'>C</button>
+        <button class='perc' onclick='percentual()'>%</button>
+        <button class='divisao' onclick='add_operador("/")'>/</button>
+          </div>
     </div>
   </body>
-</html>
+ </html>
